@@ -1,8 +1,10 @@
-# React + Vite
+## Wisata Test Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Run Locally
+1. yarn
+2. yarn dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Approach
+1. Using Open AI prompt for extract location or property name from free text,
+   hopefully that tool can extract two keys that is **"Location"** or **"destination"**
+2. When Open AI cannot extract well, feed query directly to search locations and properties API
