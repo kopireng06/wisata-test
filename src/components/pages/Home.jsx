@@ -110,7 +110,7 @@ function Home() {
           boxShadow='sm'
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder='Search your destination'
+          placeholder='Search your destination e.g. jakarta this weekend, yellow surabaya, bandung'
         />
         <InputRightElement top={2} right={2}>
           <IconButton colorScheme='blue' aria-label='Search database' icon={<GrSearch />} />
