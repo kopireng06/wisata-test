@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { openAiPrompt } from '../../fetchers/openai'
+import { openAiPrompt } from '../../fetchers/openAi'
 
 const USE_OPENAI_PROMPT_KEY = 'open_ai_prompt'
 
